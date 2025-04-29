@@ -1,4 +1,7 @@
-#Criptografiaflowchart LR
+#Criptografia
+
+```mermaid
+flowchart LR
 n2["Primitivas de segurança"]:::Aqua --> n4["Primitivas de chave pública"]
 n2 --> n5["Primitivas de chave simétrica"]
 n2 --> n6["Primitivas sem chave"]
@@ -21,3 +24,5 @@ n11 --> n18["Bloco de cifra"]
 n11 --> n19["Fluxo de cifra"]
 
 classDef Aqua stroke-width:1px, stroke-dasharray:none, stroke:#46EDC8, fill:#DEFFF8, color:#378E7A;
+
+```
